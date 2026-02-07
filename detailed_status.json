@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-07T09:23:49.954500",
+  "timestamp": "2026-02-07T09:24:21.218875",
   "summary": {
     "total_agents": 11,
     "active_processes": 11,
-    "workspace_files": 7311,
+    "workspace_files": 7314,
     "scraped_data_mb": 0.0,
     "paper_balance": "$98.25",
     "iran_position": "\u274c 7\u00a2 (-$1.75 / -41.7%)"
@@ -21,8 +21,8 @@
       "progress": "Active",
       "next": "Continue execution",
       "pid": 7416,
-      "uptime": "15.8 min",
-      "resources": "CPU 7.4% | RAM 14.3 MB"
+      "uptime": "16.3 min",
+      "resources": "CPU 7.6% | RAM 14.4 MB"
     },
     {
       "name": "AI Thoughts Monitor",
@@ -39,8 +39,8 @@
       "progress": "Active monitoring loop",
       "next": "Continue updates every 5 sec",
       "pid": 12364,
-      "uptime": "31.6 min",
-      "resources": "CPU 0.4% | RAM 5.6 MB"
+      "uptime": "32.1 min",
+      "resources": "CPU 0.8% | RAM 5.7 MB"
     },
     {
       "name": "Python Process (agents_status.py)",
@@ -54,8 +54,8 @@
       "progress": "Active",
       "next": "Continue execution",
       "pid": 16984,
-      "uptime": "25.8 min",
-      "resources": "CPU 0.0% | RAM 6.1 MB"
+      "uptime": "26.3 min",
+      "resources": "CPU 0.4% | RAM 6.2 MB"
     },
     {
       "name": "Python Process (publish_agent_status.py)",
@@ -69,8 +69,8 @@
       "progress": "Active",
       "next": "Continue execution",
       "pid": 17780,
-      "uptime": "11.9 min",
-      "resources": "CPU 0.0% | RAM 5.4 MB"
+      "uptime": "12.4 min",
+      "resources": "CPU 0.0% | RAM 5.5 MB"
     },
     {
       "name": "File Activity Tracker",
@@ -87,8 +87,8 @@
       "progress": "Monitoring 250+ files",
       "next": "Continue watching for changes",
       "pid": 21580,
-      "uptime": "18.0 min",
-      "resources": "CPU 6.5% | RAM 10.3 MB"
+      "uptime": "18.6 min",
+      "resources": "CPU 10.3% | RAM 9.0 MB"
     },
     {
       "name": "Python Process (get_file_activity.py)",
@@ -102,8 +102,8 @@
       "progress": "Active",
       "next": "Continue execution",
       "pid": 21852,
-      "uptime": "31.6 min",
-      "resources": "CPU 0.2% | RAM 4.6 MB"
+      "uptime": "32.1 min",
+      "resources": "CPU 0.0% | RAM 4.7 MB"
     },
     {
       "name": "Python Process (run.py)",
@@ -117,8 +117,8 @@
       "progress": "Active",
       "next": "Continue execution",
       "pid": 27392,
-      "uptime": "31.1 min",
-      "resources": "CPU 6.9% | RAM 2255.8 MB"
+      "uptime": "31.6 min",
+      "resources": "CPU 6.6% | RAM 2035.0 MB"
     },
     {
       "name": "AI Thoughts Monitor",
@@ -135,8 +135,8 @@
       "progress": "Active monitoring loop",
       "next": "Continue updates every 5 sec",
       "pid": 32072,
-      "uptime": "18.0 min",
-      "resources": "CPU 0.8% | RAM 5.7 MB"
+      "uptime": "18.6 min",
+      "resources": "CPU 0.2% | RAM 6.6 MB"
     },
     {
       "name": "Historical Data Scraper",
@@ -153,8 +153,8 @@
       "progress": "Event fetch ~95% complete",
       "next": "Start price history downloads",
       "pid": 32652,
-      "uptime": "18.0 min",
-      "resources": "CPU 9.1% | RAM 242.6 MB"
+      "uptime": "18.6 min",
+      "resources": "CPU 5.5% | RAM 235.9 MB"
     },
     {
       "name": "Dashboard Status Updater",
@@ -171,8 +171,8 @@
       "progress": "Status.json updating",
       "next": "Continue 2-sec refresh loop",
       "pid": 34400,
-      "uptime": "18.0 min",
-      "resources": "CPU 0.4% | RAM 5.6 MB"
+      "uptime": "18.6 min",
+      "resources": "CPU 1.2% | RAM 5.7 MB"
     },
     {
       "name": "Python Process (agents_status.py)",
@@ -186,8 +186,8 @@
       "progress": "Active",
       "next": "Continue execution",
       "pid": 35740,
-      "uptime": "25.1 min",
-      "resources": "CPU 0.0% | RAM 6.1 MB"
+      "uptime": "25.6 min",
+      "resources": "CPU 0.4% | RAM 6.1 MB"
     }
   ],
   "overall_status": "OPERATIONAL",
