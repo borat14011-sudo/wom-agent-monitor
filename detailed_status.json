@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-02-07T09:35:55.830534",
+  "timestamp": "2026-02-07T09:36:28.845816",
   "summary": {
-    "total_agents": 11,
-    "active_processes": 11,
-    "workspace_files": 7375,
-    "scraped_data_mb": 1532.28,
+    "total_agents": 7,
+    "active_processes": 7,
+    "workspace_files": 7378,
+    "scraped_data_mb": 1668.34,
     "paper_balance": "$98.25",
     "iran_position": "\u274c 7\u00a2 (-$1.75 / -41.7%)"
   },
@@ -21,8 +21,8 @@
       "progress": "Active",
       "next": "Continue execution",
       "pid": 7416,
-      "uptime": "27.7 min",
-      "resources": "CPU 9.1% | RAM 10.9 MB"
+      "uptime": "28.4 min",
+      "resources": "CPU 8.6% | RAM 15.1 MB"
     },
     {
       "name": "AI Thoughts Monitor",
@@ -39,8 +39,8 @@
       "progress": "Active monitoring loop",
       "next": "Continue updates every 5 sec",
       "pid": 12364,
-      "uptime": "43.5 min",
-      "resources": "CPU 0.3% | RAM 5.5 MB"
+      "uptime": "44.3 min",
+      "resources": "CPU 0.0% | RAM 5.6 MB"
     },
     {
       "name": "Python Process (agents_status.py)",
@@ -54,8 +54,8 @@
       "progress": "Active",
       "next": "Continue execution",
       "pid": 16984,
-      "uptime": "37.7 min",
-      "resources": "CPU 0.3% | RAM 6.0 MB"
+      "uptime": "38.5 min",
+      "resources": "CPU 0.4% | RAM 6.1 MB"
     },
     {
       "name": "Python Process (publish_agent_status.py)",
@@ -69,26 +69,8 @@
       "progress": "Active",
       "next": "Continue execution",
       "pid": 17780,
-      "uptime": "23.8 min",
-      "resources": "CPU 0.0% | RAM 0.1 MB"
-    },
-    {
-      "name": "File Activity Tracker",
-      "status": "RUNNING",
-      "emoji": "\ud83d\udcc1",
-      "task": "Watching workspace for all file changes",
-      "details": [
-        "Tracks creates, modifies, deletes",
-        "Logs to file_activity.log with timestamps",
-        "Updates file_activity.json every 3 sec",
-        "Shows last 15 changes on dashboard"
-      ],
-      "thinking": "Complete visibility = complete trust. Every file change is logged with timestamp and size.",
-      "progress": "Monitoring 250+ files",
-      "next": "Continue watching for changes",
-      "pid": 21580,
-      "uptime": "29.9 min",
-      "resources": "CPU 29.2% | RAM 317.7 MB"
+      "uptime": "24.5 min",
+      "resources": "CPU 0.0% | RAM 5.4 MB"
     },
     {
       "name": "Python Process (get_file_activity.py)",
@@ -102,8 +84,8 @@
       "progress": "Active",
       "next": "Continue execution",
       "pid": 21852,
-      "uptime": "43.5 min",
-      "resources": "CPU 0.4% | RAM 4.7 MB"
+      "uptime": "44.3 min",
+      "resources": "CPU 0.6% | RAM 4.9 MB"
     },
     {
       "name": "Python Process (run.py)",
@@ -117,62 +99,8 @@
       "progress": "Active",
       "next": "Continue execution",
       "pid": 27392,
-      "uptime": "43.0 min",
-      "resources": "CPU 9.9% | RAM 31.3 MB"
-    },
-    {
-      "name": "AI Thoughts Monitor",
-      "status": "RUNNING",
-      "emoji": "\ud83e\udde0",
-      "task": "Updating thoughts.json every 5 seconds",
-      "details": [
-        "Monitors all Python processes",
-        "Checks scraper progress",
-        "Generates contextual thinking based on system state",
-        "Feeds dashboard with AI perspective"
-      ],
-      "thinking": "User wants total transparency - showing exactly what Borat is doing and thinking in real-time.",
-      "progress": "Active monitoring loop",
-      "next": "Continue updates every 5 sec",
-      "pid": 32072,
-      "uptime": "29.9 min",
-      "resources": "CPU 0.1% | RAM 5.6 MB"
-    },
-    {
-      "name": "Historical Data Scraper",
-      "status": "RUNNING",
-      "emoji": "\ud83d\udd0d",
-      "task": "Fetching all Polymarket events + price histories",
-      "details": [
-        "Step 1: Downloading event metadata from Gamma API",
-        "Step 2: For each event, fetch minute-by-minute prices from CLOB API",
-        "Expected: 62,000+ markets \u00d7 ~1,000 datapoints each = 60M+ rows",
-        "Output: JSON files \u2192 transform to Parquet for DuckDB"
-      ],
-      "thinking": "This is the foundation. Without real historical data, all backtests are fiction. Taking the time to do this RIGHT.",
-      "progress": "Event fetch ~95% complete",
-      "next": "Start price history downloads",
-      "pid": 32652,
-      "uptime": "29.9 min",
-      "resources": "CPU 2.4% | RAM 146.0 MB"
-    },
-    {
-      "name": "Dashboard Status Updater",
-      "status": "RUNNING",
-      "emoji": "\ud83d\udcca",
-      "task": "Refreshing status.json every 2 seconds",
-      "details": [
-        "Reads scraper progress from data files",
-        "Updates event count and completion %",
-        "Checks paper balance and Iran position",
-        "Feeds real-time data to dashboard"
-      ],
-      "thinking": "Live data = live decisions. Dashboard shows reality in 2-second intervals so user always knows current state.",
-      "progress": "Status.json updating",
-      "next": "Continue 2-sec refresh loop",
-      "pid": 34400,
-      "uptime": "29.9 min",
-      "resources": "CPU 0.6% | RAM 5.5 MB"
+      "uptime": "43.8 min",
+      "resources": "CPU 83.4% | RAM 223.0 MB"
     },
     {
       "name": "Python Process (agents_status.py)",
@@ -186,8 +114,8 @@
       "progress": "Active",
       "next": "Continue execution",
       "pid": 35740,
-      "uptime": "37.0 min",
-      "resources": "CPU 0.3% | RAM 6.1 MB"
+      "uptime": "37.7 min",
+      "resources": "CPU 0.4% | RAM 6.2 MB"
     }
   ],
   "overall_status": "OPERATIONAL",
